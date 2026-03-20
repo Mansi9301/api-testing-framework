@@ -57,3 +57,12 @@ pytest -v
 ### 5. Run with HTML report
 mkdir reports
 pytest -v --html=reports/report.html --self-contained-html
+
+
+<img width="1440" height="900" alt="Screenshot 2026-03-20 at 7 26 55 PM" src="https://github.com/user-attachments/assets/f53ae2a7-8e63-4009-9a3a-b1f9ffc47044" />
+
+
+
+https://github.com/user-attachments/assets/ee9a42a0-95d4-4b37-a3c4-e5568ec4796b
+
+
