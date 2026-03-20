@@ -1,0 +1,9 @@
+import pytest
+from utils.api_client import APIClient
+
+
+@pytest.fixture(scope="session")
+def api_client():
+    """Creates one API client for the entire test session"""
+    client = APIClient()
+    return client
