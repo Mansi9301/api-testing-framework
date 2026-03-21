@@ -1,3 +1,15 @@
+## About This Project
+
+This framework simulates the kind of API validation performed in network 
+management systems — validating endpoint reliability, data schema integrity, 
+HTTP method coverage, and performance SLA thresholds. It is designed to 
+reflect real-world telecom QA workflows where API consistency and response 
+time are critical requirements.
+
+Built entirely in Python using Pytest and the Requests library, the 
+framework tests a RESTful API across 36 automated test cases and generates 
+HTML reports for test result visibility.
+
 # API Testing Framework
 
 Production-grade REST API test framework built with Python and Pytest,
