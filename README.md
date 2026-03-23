@@ -1,7 +1,7 @@
 ## About This Project
 
 This framework simulates the kind of API validation performed in network 
-management systems — validating endpoint reliability, data schema integrity, 
+management systems validating endpoint reliability, data schema integrity, 
 HTTP method coverage, and performance SLA thresholds. It is designed to 
 reflect real-world telecom QA workflows where API consistency and response 
 time are critical requirements.
@@ -9,6 +9,18 @@ time are critical requirements.
 Built entirely in Python using Pytest and the Requests library, the 
 framework tests a RESTful API across 36 automated test cases and generates 
 HTML reports for test result visibility.
+
+Project 2 — REST API Test Framework
+
+Situation: After completing the Selenium project I noticed that Ottawa's telecom sector companies like Ericsson, Nokia, and Ciena — specifically requires API testing and network-level validation skills. My existing experience touched API testing at Dell but I had no dedicated project demonstrating it.
+
+Task: I set out to build a production-grade API testing framework that simulated the kind of network management system validation used in telecom environments specifically targeting the Ottawa job market.
+
+Action: I built a three-file framework in Python using Pytest and the Requests library, testing a RESTful API across 36 automated test cases. I wrote tests covering all four HTTP methods GET, POST, PUT, DELETE with JSON Schema validation to verify response structure. I added a dedicated network performance test suite that validated SLA thresholds at 1, 2, and 3 second intervals, simulated 10 concurrent connections using Python's ThreadPoolExecutor, tested cross-endpoint data integrity, and verified response headers and content types. I generated HTML reports for test result visibility and deployed the project to GitHub with full documentation.
+
+Result: All 36 tests pass in under 2 seconds. The framework directly mirrors real telecom QA workflows and uses language — SLA thresholds, concurrent request handling, network node simulation.
+
+
 
 # API Testing Framework
 
